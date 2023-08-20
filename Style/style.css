@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root {
+    --primeira-cor: #ee5a05d0;
+    --segunda-cor: #ff5e00;
+    --terceira-cor: #6fa036;
+    --quarta-cor: #3c5a1a;
+    --quinta-cor: #dab200;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;  
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: var(--primeira-cor); 
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;    
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li > a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 90vh;
+    display: flex;
+    background-color: #ffffff;
+    color: var(--quarta-cor);
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: var(--segunda-cor);
+    font-weight: 700;
+    height: 45px;
+}
+.profissao {
+    color: var(--terceira-cor);
+    height: 60px;
+
+}
+
+.texto-sobre {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.article-lista {
+   display: flex;
+   margin-top: 80px;
+   margin-bottom: 100px; 
+   flex-direction: column;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: var(--segunda-cor);
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: var(--quarta-cor);
+    font-weight: 700;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color:var(--segunda-cor);
+    font-weight: 300;
+}
+
+.rodape {
+    background-color: var(--primeira-cor);
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape li {
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icone {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.foto-perfil {
+    height: 250px;
+    width: 250px;
+}
+ 
